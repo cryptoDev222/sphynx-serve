@@ -1,0 +1,27 @@
+{
+  "name": "sphynx-serve",
+  "version": "1.0.0",
+  "description": "",
+  "author": "cryptoDev <genius.developer.63@gmail.com>",
+  "keywords": [
+    "blockchain"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cryptoDev222/sphynx-serve.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-static-gzip": "^2.1.1",
+    "http-errors": "^1.8.0",
+    "pino": "^6.13.3",
+    "pino-http": "^5.8.0",
+    "pino-pretty": "^7.0.1"
+  }
+}
